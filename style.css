@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size:17px;
+    line-height:1.6;
+}
+
+.bars{
+    width:100%;
+    height:7%;
+    background-color: rgba(120,212,217,255);
+}
+
+.bars ul{
+    float:right;
+}
+
+.bars ul li{
+    float:left;
+    list-style: none;
+    position: relative;
+}
+
+.bars ul li a{
+    display: block;
+    font-family:arial;
+    color:saddlebrown;
+    font-size: 14px;
+    padding: 10px 14px ;
+    text-decoration: none;
+}
+
+#showcase{
+    background-image:url('./img/mainpage.jpg');
+    width:97%;
+    background-size:cover;
+    background-position:center;
+    height:120vh;   
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+    align-items:center;
+    padding:0 20px;
+}
+#showcase h1{
+    position:absolute;
+    top:25%;
+    color:saddlebrown;
+    font-size:50px;
+    line-height:1.2;
+    font-style: italic;
+    font-family: lucida;
+
+}
+
+.options{
+    width:100%;
+    height:7px;
+    padding-bottom: 2%;
+    background-color:rgba(120,212,217,255);
+}
+
+.options ul{
+    float:left;
+    padding-right:2%;
+}
+
+.options ul li{
+    float:left;
+    list-style: none;
+    position: relative;
+}
+
+.options ul li a{
+    display: block;
+    font-family:arial;
+    color:black;
+    font-size: 14px;
+    padding:9px 14px;
+    text-decoration: none;
+}
+
+.options ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.options ul li:hover ul{
+    display:block;
+}
+
+.options ul li ul li{
+    width:180px;
+    border-radius: 4px;
+}
+
+.options ul li ul li a{
+    padding: 8px 14px;
+}
+
+.options ul li ul li a:hover{
+    background-color: rgba(120,212,217,255);
+    color: white;
+}
+
+
+.intro img{
+    width:40%;
+    position: absolute;
+    top:8%;
+    right:25%;
+    left:30%;
+    height:40%;
+    border-radius: 14px;
+}
+
+.intro h3{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 26px;
+    padding-left: 1%;
+    padding-top: 22%;
+}
+
+.intro p{
+    font-size:18px;
+    padding-left: 1%;
+}
+
+.types h3{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 26px;
+    padding-left: 1%;
+}
+
+.types p{
+    font-size:18px;
+    padding-left: 1%;
+}
+
+.type1 h5{
+    font-family:georgia;
+    font-size:23px;
+    text-decoration: underline;
+    padding-left: 1%;
+}
+
+.type1 p{
+    font-size:18px;
+    padding-left: 1%;
+}
+.type2 h5{
+    font-family:georgia;
+    font-size:23px;
+    text-decoration: underline;
+    padding-left: 1%;
+}
+
+.type2 p{
+    font-size: 18px;
+    padding-left: 1%;
+}
+
+.steps h3{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 26px;
+    padding-left: 1%;
+}
+
+.steps h6{
+    font-size: 18px;
+    padding-left: 1%;
+}
+.steps p{
+    font-size:18px;
+    padding-left: 1%;
+}
+
+.methods h3{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 26px;
+    padding-left: 1%;
+}
+
+.method1 img{
+    float:left;
+    width:45%;
+    height: 57%;
+    padding-top: 2%;
+}
+
+.method1 h5{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 23px;
+    padding-left: 50%;
+    padding-top: 5%;
+}
+
+.method1 p{
+    font-size:18px;
+    padding-left: 50%;
+    padding-top:1%;
+
+}
+
+.method2 h5{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 23px;
+    padding-top:19%;
+    padding-right: 50%;
+    padding-left: 1%;
+}
+
+.method2 p{
+    font-size:18px;
+    padding-top:1%;
+    padding-right: 50%;
+    padding-left: 1%;
+}
+
+.method2 img{
+    float:right;
+    width:45%;
+    height: 65%;
+    padding-top: 13%;
+    padding-right: 2%;
+}
+
+.method3 img{
+    float:left;
+    width:40%;
+    height: 55%;
+    padding-top: 18%;
+    padding-left: 2%;
+}
+
+.method3 h5{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 23px;
+    padding-top:22%;
+    padding-left: 50%;
+    padding-right: 1%;
+}
+
+.method3 p{
+    font-size:18px;
+    padding-top:1%;
+    padding-left: 50%;
+    padding-right: 1%;
+}
+
+.method4 img{
+    float:right;
+    width:40%;
+    height: 55%;
+    padding-top: 10%;
+    padding-right: 2%;
+}
+
+.method4 h5{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 23px;
+    padding-top:17%;
+    padding-right: 50%;
+    padding-left: 1%;
+}
+
+.method4 p{
+    font-size:18px;
+    padding-top:1%;
+    padding-right: 50%;
+    padding-left: 1%;
+}
+
+.keyfacts h3{
+    font-family:georgia;
+    text-decoration: underline;
+    font-size: 26px;
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+.keyfacts p{
+    font-size:18px;
+    padding-left: 1%;
+}
+
+.line1{
+    border-bottom: 4px solid rgba(120,212,217,255);
+    display: block;
+}
+
+.line2{
+    border-bottom: 4px solid rgba(120,212,217,255);
+    display: block;
+}
+
+.line3{
+    border-bottom: 4px solid rgba(120,212,217,255);
+    display: block; 
+}
+
+.line4{
+    border-bottom:4px solid rgba(120,212,217,255);
+    display:block;
+    padding-top: 8%;
+}
+
+.week h3{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    padding-top: 2%;
+}
+
+.buttons{
+    width:100%;
+    height:7px;
+    padding-bottom: 2%;
+    background-color:rgba(120,212,217,255);
+}
+
+.buttons ul{
+    float:left;
+    padding-right:2%;
+}
+
+.buttons ul li{
+    float:left;
+    list-style: none;
+    position: relative;
+}
+
+.buttons ul li a{
+    display: block;
+    font-family:arial;
+    color:black;
+    font-size: 14px;
+    padding:9px 14px;
+    text-decoration: none;
+}
+
+.week1 img{
+    float:left;
+    border-radius:25px;
+    width:45%;
+    height:55%;
+    position:absolute;
+    left:2.5%;
+    top: 25%;
+}
+
+.week1 h5{
+    padding-left:50%;
+    font-family: georgia;
+    text-decoration: underline;
+    font-size:23px;
+    padding-top: 7%;
+}
+
+.week1 p{
+    padding-left: 52%;
+    font-size: 23px;
+
+}
+.week2 img{
+    float:right;
+    border-radius:25px;
+    width:30%;
+    height:70%;
+    position:absolute;
+    right:15%;
+    top:90%;
+}
+
+.week2 h5{
+    padding-right:50%;
+    font-family: georgia;
+    text-decoration: underline;
+    font-size:23px;
+    padding-top: 22%;
+    padding-left: 2.5%;
+}
+
+.week2 p{
+    padding-right: 52%;
+    font-size: 23px;
+    padding-left: 4.5%;
+
+}
+
+.week3 img{
+    float:left;
+    border-radius:25px;
+    width:45%;
+    height:55%;
+    position:absolute;
+    left:2.5%;
+    top: 170%;
+}
+
+.week3 h5{
+    padding-left:50%;
+    font-family: georgia;
+    text-decoration: underline;
+    font-size:23px;
+    padding-top: 29%;
+}
+
+.week3 p{
+    padding-left: 52%;
+    font-size: 23px;
+
+}
+
+.week4 img{
+    float:right;
+    border-radius:25px;
+    width:45%;
+    height:55%;
+    position:absolute;
+    right:2.5%;
+    top:235%;
+}
+
+.week4 h5{
+    padding-right:50%;
+    font-family: georgia;
+    text-decoration: underline;
+    font-size:23px;
+    padding-top: 19%;
+    padding-left: 2.5%;
+}
+
+.week4 p{
+    padding-right: 52%;
+    font-size: 23px;
+    padding-left: 4.5%;
+
+}
+
+.week5 img{
+    float:left;
+    border-radius:25px;
+    width:45%;
+    height:55%;
+    position:absolute;
+    left:2.5%;
+    top: 300%;
+}
+
+.week5 h5{
+    padding-left:50%;
+    font-family: georgia;
+    text-decoration: underline;
+    font-size:23px;
+    padding-top: 18%;
+}
+
+.week5 p{
+    padding-left: 52%;
+    font-size: 23px;
+    padding-bottom: 11%;
+}
